@@ -2,17 +2,24 @@
  "Print to console w/ label newline": {
 		"prefix": "ll",
 		"body": [
-			"console.log(`---$1`) // !!!",
-			"console.log($1) // !!!"
+			"console.log(`---$1`); // !!!",
+			"console.log($1); // !!!"
 		],
 		"description": "console.log w/ label newline"
 	},
 	"Print to console w/ label same line": {
 		"prefix": "cc",
 		"body": [
-			"console.log(`---$1 =>`, $1) // !!!"
+			"console.log(`---$1 =>`, $1); // !!!"
 		],
 		"description": "console.log w/ label same line"
+	},
+	"Print string to console": {
+		"prefix": "xx",
+		"body": [
+			"console.log(`---$1`); // !!!"
+		],
+		"description": "console.log string same line"
 	},
   "Throw Exception": {
     "prefix": "throw",
