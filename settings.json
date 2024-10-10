@@ -23,6 +23,10 @@
   // "buffer_font_family": "JetBrains Mono NL",
   // Argon, Krypton, Neon, Radon, Xenon
   "buffer_font_family": "Monaspace Krypton",
+  "terminal": {
+    "cursor_shape": "block",
+    "font_family": "Source Code Pro"
+  },
   "cursor_blink": false,
   "base_keymap": "SublimeText",
   "telemetry": {
@@ -43,6 +47,6 @@
     "show_in_status_bar": true
   },
   "preferred_line_length": 120,
-  "show_inline_completions": true,
-  "tabs": { "file_icons": true }
+  "show_inline_completions": true
+  // "tabs": { "file_icons": true }
 }

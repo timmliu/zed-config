@@ -21,6 +21,11 @@
 		],
 		"description": "console.log string same line"
 	},
+  "JSON.stringify": {
+    "prefix": "stringify",
+    "body": ["JSON.stringify($1, null, 2);", "$0"],
+    "description": "JSON.stringify"
+  },
   "Throw Exception": {
     "prefix": "throw",
     "body": ["throw new Error(\"$1\");", "$0"],
