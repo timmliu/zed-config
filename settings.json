@@ -17,6 +17,24 @@
   "languages": {
     "Markdown": {
       "show_copilot_suggestions": false
+    },
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true
+      }
+    },
+    "TSX": {
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true
+      }
     }
   },
   // "buffer_font_family": "Source Code Pro",
