@@ -48,10 +48,12 @@
   "cursor_blink": false,
   "base_keymap": "SublimeText",
   "telemetry": {
+    "diagnostics": true,
     "metrics": false
   },
   "file_types": {
-    "CSS": ["scss"]
+    "CSS": ["scss"],
+    "C": ["m", "h"]
   },
   "format_on_save": "on",
   "vim_mode": true,
@@ -60,11 +62,16 @@
   "ui_font_size": 13,
   "buffer_font_size": 13,
   "tab_size": 2,
+  "enable_language_server": true,
   "ensure_final_newline_on_save": true,
+  "remove_trailing_whitespace_on_save": true,
   "performance": {
     "show_in_status_bar": true
   },
   "preferred_line_length": 120,
-  "show_inline_completions": true
-  // "tabs": { "file_icons": true }
+  "show_inline_completions": true,
+  "tabs": {
+    "file_icons": false,
+    "git_status": true
+  }
 }
