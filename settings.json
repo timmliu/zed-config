@@ -73,5 +73,8 @@
   "tabs": {
     "file_icons": false,
     "git_status": true
+  },
+  "features": {
+    "copilot": true
   }
 }
