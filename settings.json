@@ -43,7 +43,7 @@
   "buffer_font_family": "Monaspace Krypton",
   "terminal": {
     "cursor_shape": "block",
-    "font_family": "Source Code Pro"
+    "font_family": "Monaspace Argon"
   },
   "cursor_blink": false,
   "base_keymap": "SublimeText",
@@ -70,6 +70,11 @@
   },
   "preferred_line_length": 120,
   "show_inline_completions": true,
+  "git": {
+    "inline_blame": {
+      "enabled": true
+    }
+  },
   "tabs": {
     "file_icons": false,
     "git_status": true
