@@ -53,12 +53,12 @@
   },
   "file_types": {
     "CSS": ["scss"],
-    "C": ["m", "h"]
+    "C++": ["mm", "m", "h"]
   },
   "format_on_save": "on",
   "vim_mode": true,
   "relative_line_numbers": true,
-  "theme": "JetBrains New Dark",
+  "theme": "XY-Zed",
   "ui_font_size": 13,
   "buffer_font_size": 13,
   "tab_size": 2,
