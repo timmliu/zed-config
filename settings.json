@@ -48,9 +48,10 @@
   "cursor_blink": false,
   "base_keymap": "SublimeText",
   "telemetry": {
-    "diagnostics": true,
+    "diagnostics": false,
     "metrics": false
   },
+  "file_scan_exclusions": ["**/*.spec.ts", "**/*.stories.ts"],
   "file_types": {
     "CSS": ["scss"],
     "C++": ["mm", "m", "h"]
@@ -58,7 +59,7 @@
   "format_on_save": "on",
   "vim_mode": true,
   "relative_line_numbers": true,
-  "theme": "XY-Zed",
+  "theme": "Dracula",
   "ui_font_size": 13,
   "buffer_font_size": 13,
   "tab_size": 2,
@@ -80,6 +81,7 @@
     "git_status": true
   },
   "features": {
+    "edit_prediction_provider": "zed",
     "copilot": true
   }
 }
